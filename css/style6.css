@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(95, 158, 160);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.main{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    padding: 20px 10px 10px 10px;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+}
+
+.image img{
+    border-style: solid;
+    border-color: rgb(185, 185, 30);
+    width: 150px;
+    height: 150px;
+    border-radius: 50% 50%;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+a{
+    background-color: rgb(185, 185, 30);
+    border-style: none;
+    color: white;
+    width: 80px;
+    padding: 10px;
+    margin-left: 950px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.student-information{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 10px 10px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.student-information span{
+    margin-top: 10px;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.round1, .round2, .round3{
+    
+    padding: 15px 0px 15px 5px;
+    border-style: none;
+    box-shadow: 1px 3px 5px rgba(208, 236, 152, 0.966);
+    color: rgb(66, 66, 10);
+}
+
+.round1{
+    background-color: rgba(107, 204, 207, 0.9);
+}
+
+.round2{
+    background-color: rgba(107, 204, 207, 0.5);
+}
+
+.round3{
+    background-color: rgba(107, 204, 207, 0.1);
+}
+
